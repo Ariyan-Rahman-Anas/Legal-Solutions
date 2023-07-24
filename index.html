@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <link rel="icon" type="image/png" href="./images/business.png"/>
+
+    <!-- ===============--- tailwind and daisy ui link ---=============== -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ===============--- font awesome link ---=============== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- ===============--- header section ---=============== -->
+    <header>
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">Cases</a></li>
+                      <li><a href="">Blog</a></li>
+                      <li><a href="">Contact us</a></li>
+                    </ul>
+                  </div>
+                  <img src="./images/logo2.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li>
+                        <a href="">Home
+                            <i class="fas fa-thin fa-chevron-right opacity-50"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Services
+                            <i class="fas fa-thin fa-chevron-right opacity-50"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Cases
+                            <i class="fas fa-thin fa-chevron-right opacity-50"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Blog
+                            <i class="fas fa-thin fa-chevron-right opacity-50"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Contact us
+                            <i class="fas fa-thin fa-chevron-right opacity-50"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class=" text-white font-semibold rounded-md bg-[#B68C5A] px-4 py-2 " href="#">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+    <main>
+    <!-- ===============--- home section ---=============== -->
+        <section id="we-provide"
+        style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./images/banner.png);"
+        class="bg-no-repeat bg-center text-white bg-cover rounded-md my-11 md:w-[80%] md:mx-auto">
+            <div class="we-provide-info text-center p-16">
+                <h1 class="text-5xl font-bold py-8">We Provide Effective<br>Legal Solutions</h1>
+                <p class="py-4 md:w-[60%] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <form action="" class="flex items-center justify-center gap-6 flex-col pt-4 md:flex-row ">
+                    <label for="email">
+                        <input class="rounded-md px-4 py-2 w-full outline-none focus:outline-2 outline-[#b68c5a] outline-offset-0 outline-0" type="text" id="text" name="text" placeholder="Search your services">
+                    </label>
+                    <a class=" text-white font-semibold rounded-md bg-[#B68C5A] px-6 py-2 " href="#">Search</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
