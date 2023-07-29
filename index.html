@@ -74,7 +74,7 @@
     <!-- ===============--- home section ---=============== -->
         <section id="we-provide"
         style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(./images/banner.png);"
-        class="bg-no-repeat bg-center text-white bg-cover rounded-md my-11 mx-2 md:w-[80%] md:mx-auto flex items-center justify-center bg-red-500 py-16">
+        class="bg-no-repeat bg-center text-white bg-cover rounded-md my-11 mx-2 md:w-[80%] md:mx-auto flex items-center justify-center py-16">
             <div class="we-provide-info text-center p-4">
                 <h1 class="text-5xl text-center font-bold py-8">We Provide Effective<br>Legal Solutions</h1>
                 <p class="py-4 md:w-[90%] lg:w-[70] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
@@ -264,8 +264,99 @@
             </div>
         </section>
 
+    <!-- ===============--- contact-with-us-section ---=============== -->
+        <section id="contact-with-us-section" class=" my-20 w-[80%] lg:w-[60%] mx-auto ">
+            <h1 class="text-3xl font-bold text-center">Contact With Us</h1>
+            <p class="text-xs text-center pt-2 pb-4 w-[90%] lg:w-[70%] mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="all-content flex flex-col items-center md:items-start justify-center gap-8 md:flex-row">
+                <div class="contact-left flex-1 flex flex-col items-center justify-center gap-y-2 md:gap-y-0 md:grid md:grid-cols-2">
+                    <div class="address text-center flex items-center justify-center bg-[#F3F3F3] p-4 md:border-r md:border-b">
+                        <div class="info w-[10rem]">
+                            <img class="block mx-auto" src="./images/location.png" alt="" />
+                            <strong>Address</strong>
+                            <p class="text-xs py-2">
+                                A108 Adam Street, <br />
+                                New York, NY 535022
+                            </p>
+                        </div>
+                    </div>
+                    <div class="call text-center flex items-center justify-center bg-[#F3F3F3] md:border-b p-4">
+                        <div class="info w-[10rem]">
+                            <img class="block mx-auto" src="./images/call.png" alt="" />
+                            <strong>Call Us</strong>
+                            <p class="text-xs py-2">+88 01750-467946<br>+88 01750-164916</p>
+                        </div>
+                    </div>
+                    <div class="email text-center flex items-center justify-center bg-[#F3F3F3] p-4 md:border-r">
+                        <div class="info w-[10rem]">
+                            <img class="block mx-auto" src="./images/email.png" alt="" />
+                            <strong>Email Us</strong>
+                            <p class="text-xs py-2">info@gmail.com<br>info@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="working-hours text-center flex items-center justify-center bg-[#F3F3F3] p-4">
+                        <div class="info w-[10rem]">
+                            <img class="block mx-auto" src="./images/time.png" alt="" />
+                            <strong>Availability</strong>
+                            <p class="text-xs py-2">Mon-Fri: 9AM to 5PM<br>Sunday: 9AM to 1 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right flex-1">
+                    <form action="#" class="flex flex-col gap-y-4">
+                        <label for="name">
+                            <input type="text" id="name" name="name" placeholder="Your Name" class="bg-[#F3F3F3] w-full p-2 rounded-md focus:outline-gray-300" >
+                        </label>
+                        <label for="email">
+                            <input type="email" name="email" id="email" placeholder="Your E-mail" class="bg-[#F3F3F3] w-full p-2 rounded-md focus:outline-gray-300" >
+                        </label>
+                        <label for="subject">
+                            <input type="text" name="subject" id="subject" placeholder="Your Subject" class="bg-[#F3F3F3] w-full p-2 rounded-md focus:outline-gray-300" >
+                        </label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="" placeholder="Your Message" class="bg-[#F3F3F3] w-full p-2 rounded-md focus:outline-gray-300" ></textarea>
+                        <input type="submit" value="Send Message" class="text-white bg-[#B68C5A] py-2 rounded-md">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- ===============--- footer section ---=============== -->
+    <section class="bg-black text-white pt-12">
+        <footer class="footer text-white bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:place-items-center p-10 bg-base-200 text-base-content ">
+            <div>
+                <img src="./images/logo.png" alt="">
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div> 
+            <div>
+            <span class="footer-title">Company</span> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Contact</a> 
+            <a class="link link-hover">Jobs</a> 
+            <a class="link link-hover">Press kit</a>
+            </div> 
+            <div>
+            <span class="footer-title">Legal</span> 
+            <a class="link link-hover">Terms of use</a> 
+            <a class="link link-hover">Privacy policy</a> 
+            <a class="link link-hover">Cookie policy</a>
+            </div> 
+            <div>
+            <span class="footer-title">Newsletter</span> 
+            <div class="form-control w-80">
+                <label class="label">
+                <span class="label-text text-white">Enter your email address</span>
+                </label> 
+                <div class="relative">
+                <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+                <button class="btn border-none absolute top-0 right-0 rounded-l-none text-white bg-[#B68C5A] hover:text-[#b68c5a] hover:bg-white ">Subscribe</button>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <p class="text-center px-4 pb-1 text-sm">&copy;CopyRight-2023 | All rights reserved by <a href="https://www.facebook.com/ariyanrahmananas69" target="_blank" class="font-semibold">Ariyan Rahman Anas</a></p>
+    </section>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 </body>
